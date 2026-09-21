@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Koherencja Serca — Polityka prywatności</title>
+<meta name="description" content="Polityka prywatności aplikacji Koherencja Serca / Privacy policy of the Koherencja Serca app.">
+<style>
+  :root {
+    --bg: #0a0f14;
+    --surface: #111820;
+    --ink: #e8dcc8;
+    --ink-muted: rgba(232, 220, 200, 0.68);
+    --gold: #c9a45c;
+    --line: rgba(201, 164, 92, 0.22);
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #faf7f1;
+      --surface: #ffffff;
+      --ink: #1d242b;
+      --ink-muted: #56606a;
+      --gold: #8a6a2c;
+      --line: rgba(138, 106, 44, 0.25);
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  /* Przełącznik języka przyklejony u góry — widoczny przy każdej długości przewijania. */
+  nav.lang {
+    position: sticky; top: 0; z-index: 1;
+    display: flex; gap: 16px; padding: 12px 0;
+    background: var(--bg); border-bottom: 1px solid var(--line);
+    font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase;
+  }
+  nav.lang a { color: var(--ink-muted); text-decoration: none; }
+  nav.lang a:hover { text-decoration: underline; }
+  article { padding-top: 32px; scroll-margin-top: 48px; }
+  /* Jedna wersja naraz: domyślnie polska, #en przełącza na angielską. */
+  #en:not(:target) { display: none; }
+  body:has(#en:target) #pl { display: none; }
+  body:not(:has(#en:target)) nav.lang a[href="#pl"],
+  body:has(#en:target) nav.lang a[href="#en"] { color: var(--gold); }
+  .eyebrow { color: var(--gold); font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; margin: 0; }
+  h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: 30px; line-height: 1.25; margin: 8px 0 4px; }
+  h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: 20px; margin: 36px 0 8px; }
+  .meta { color: var(--ink-muted); font-size: 14px; margin: 0; }
+  .summary { background: var(--surface); border: 1px solid var(--line); border-radius: 2px; padding: 16px 18px; margin: 24px 0 0; }
+  .summary p { margin: 0; }
+  p, li { color: var(--ink); }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  .muted { color: var(--ink-muted); }
+  a { color: var(--gold); }
+  footer { margin-top: 56px; color: var(--ink-muted); font-size: 13px; text-align: center; }
+</style>
+</head>
+<body>
+<main>
+  <nav class="lang" aria-label="Język / Language">
+    <a href="#pl" hreflang="pl">Polski</a>
+    <a href="#en" hreflang="en">English</a>
+  </nav>
+
+  <!-- =============================================================== PL -->
+  <article id="pl" lang="pl">
+    <p class="eyebrow">Koherencja Serca</p>
+    <h1>Polityka prywatności</h1>
+    <p class="meta">Obowiązuje od 21 września 2026 r. · dotyczy wersji 1.0 aplikacji na Androida</p>
+
+    <div class="summary">
+      <p><strong>W skrócie:</strong> aplikacja nie ma kont użytkowników, nie łączy się z internetem, nie wyświetla reklam
+        i nie korzysta z żadnych narzędzi analitycznych ani śledzących. Wszystko, co zapisuje, zostaje na Twoim
+        telefonie. Autor aplikacji nie ma dostępu do Twoich danych.</p>
+    </div>
+
+    <h2>1. Kto odpowiada za aplikację</h2>
+    <p>Aplikację „Koherencja Serca” tworzy i udostępnia Arkadiusz Maciąg, osoba prywatna (dalej: „autor”).
+      W sprawach prywatności możesz pisać na adres: <a href="mailto:koherencjarytmuserca@gmail.com">koherencjarytmuserca@gmail.com</a>.</p>
+
+    <h2>2. Jakie dane zapisuje aplikacja</h2>
+    <p>Aby działały statystyki, seria dni i przypomnienia, aplikacja zapisuje w pamięci telefonu:</p>
+    <ul>
+      <li><strong>historię sesji oddechowych:</strong> datę i godzinę rozpoczęcia, czas trwania, informację, czy sesja
+        została ukończona, porę dnia (rano / w ciągu dnia / wieczorem) oraz Twoją opcjonalną ocenę samopoczucia
+        po sesji w skali 1–5;</li>
+      <li><strong>osiągnięte kamienie milowe</strong> (np. liczba dni serii, liczba sesji);</li>
+      <li><strong>ustawienia:</strong> godziny praktyki, włączone przypomnienia, wybrany dźwięk i głośność, styl treści
+        powiadomień, sygnał zmiany fazy oddechu, język;</li>
+      <li><strong>dane techniczne:</strong> licznik uruchomień aplikacji, informację o ukończeniu samouczka oraz stan
+        rotacji treści powiadomień (żeby te same komunikaty nie powtarzały się zbyt często).</li>
+    </ul>
+    <p>Aplikacja <strong>nie mierzy</strong> tętna ani innych parametrów ciała i nie zapisuje Twojego imienia,
+      adresu e-mail, lokalizacji, kontaktów, zdjęć ani nagrań. Ocena samopoczucia jest dobrowolna.</p>
+    <p class="muted">Aplikacja służy do ćwiczeń oddechowych i nie jest wyrobem medycznym.</p>
+
+    <h2>3. Gdzie są przechowywane dane</h2>
+    <p>Dane są przechowywane wyłącznie lokalnie, w prywatnym obszarze aplikacji na Twoim urządzeniu. Inne aplikacje nie mają do niego dostępu.
+      Aplikacja nie ma uprawnienia do korzystania z internetu, więc nie może wysłać tych danych do autora ani nikogo innego.</p>
+
+    <h2>4. Kopia zapasowa Google</h2>
+    <p>Jeśli masz włączoną kopię zapasową Androida, system może zapisać dane wymienione w punkcie 2 w kopii
+      zapasowej na Twoim koncie Google. Może je też przenieść na nowy telefon, na przykład przy zmianie urządzenia.
+      Dzięki temu nie tracisz historii praktyki. Kopię tworzy i przechowuje Google na zasadach
+      <a href="https://policies.google.com/privacy" rel="noopener">Polityki prywatności Google</a>. Autor nie ma do
+      niej dostępu. Kopię zapasową możesz wyłączyć w ustawieniach telefonu (zwykle: Ustawienia → Google → Kopia
+      zapasowa).</p>
+
+    <h2>5. Uprawnienia aplikacji</h2>
+    <ul>
+      <li><strong>Powiadomienia</strong>: przypomnienia o sesjach w ustawionych przez Ciebie godzinach.</li>
+      <li><strong>Dokładne alarmy</strong>: aby przypomnienie przyszło o wybranej godzinie.</li>
+      <li><strong>Uruchamianie po restarcie telefonu</strong>: aby ponownie zaplanować przypomnienia.</li>
+      <li><strong>Wibracje</strong>: opcjonalny sygnał zmiany fazy oddechu.</li>
+    </ul>
+    <p>Aplikacja nie prosi o dostęp do lokalizacji, kontaktów, aparatu, mikrofonu ani plików. Powiadomienia możesz
+      w każdej chwili wyłączyć w aplikacji lub w ustawieniach telefonu.</p>
+
+    <h2>6. Udostępnianie danych</h2>
+    <p>Autor nie sprzedaje, nie udostępnia ani nie przekazuje Twoich danych żadnym podmiotom trzecim.
+      W aplikacji nie ma reklam, analityki, raportowania błędów przez internet ani identyfikatorów reklamowych.</p>
+
+    <h2>7. Linki do stron zewnętrznych</h2>
+    <p>Aplikacja może zawierać linki do stron zewnętrznych, na przykład do księgarni z polecanymi książkami albo do
+      platformy dobrowolnego wsparcia autora. Link otwiera się w Twojej przeglądarce dopiero po kliknięciu.
+      Od tej chwili obowiązuje polityka prywatności danej strony.
+      Linki partnerskie (afiliacyjne) są w aplikacji wyraźnie oznaczone.</p>
+
+    <h2>8. Jak długo przechowujemy dane i jak je usunąć</h2>
+    <p>Dane pozostają na urządzeniu, dopóki aplikacja jest zainstalowana. Możesz je usunąć w każdej chwili:</p>
+    <ul>
+      <li>w ustawieniach telefonu: Aplikacje → Koherencja Serca → Pamięć → <em>Wyczyść dane</em>, albo</li>
+      <li>odinstalowując aplikację.</li>
+    </ul>
+    <p>Kopię zapasową zapisaną na koncie Google usuniesz w ustawieniach kopii zapasowej telefonu lub konta Google.</p>
+
+    <h2>9. Twoje prawa</h2>
+    <p>Na podstawie RODO masz prawo do dostępu do swoich danych, ich sprostowania, usunięcia, ograniczenia
+      przetwarzania i przenoszenia. Masz też prawo wnieść skargę do Prezesa Urzędu Ochrony Danych Osobowych
+      (<a href="https://uodo.gov.pl" rel="noopener">uodo.gov.pl</a>). Dane są wyłącznie na Twoim urządzeniu,
+      więc większość tych praw realizujesz samodzielnie, na przykład usuwając dane w sposób opisany w punkcie 8.
+      Z pytaniami możesz zawsze napisać do autora.</p>
+
+    <h2>10. Dzieci</h2>
+    <p>Aplikacja nie jest skierowana do dzieci poniżej 16. roku życia. Nie zbiera też świadomie żadnych danych
+      pozwalających zidentyfikować użytkownika.</p>
+
+    <h2>11. Zmiany polityki</h2>
+    <p>Jeśli aplikacja zmieni sposób postępowania z danymi, na przykład przez dodanie funkcji wymagającej
+      połączenia z internetem, ta polityka zostanie zaktualizowana przed udostępnieniem takiej wersji. Na tej stronie
+      pojawi się wtedy nowa data obowiązywania.</p>
+  </article>
+
+  <!-- =============================================================== EN -->
+  <article id="en" lang="en">
+    <p class="eyebrow">Heart Coherence</p>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective September 21, 2026 · applies to version 1.0 of the Android app</p>
+
+    <div class="summary">
+      <p><strong>In short:</strong> the app has no user accounts, does not connect to the internet, shows no ads and
+        uses no analytics or tracking tools. Everything it stores stays on your phone. The developer has no access to
+        your data.</p>
+    </div>
+
+    <h2>1. Who is responsible for the app</h2>
+    <p>“Heart Coherence” (Polish: “Koherencja Serca”) is developed and published by Arkadiusz Maciąg, a private individual (“the developer”).
+      For privacy questions, contact: <a href="mailto:koherencjarytmuserca@gmail.com">koherencjarytmuserca@gmail.com</a>.</p>
+
+    <h2>2. What data the app stores</h2>
+    <p>To provide statistics, day streaks and reminders, the app stores on your phone:</p>
+    <ul>
+      <li><strong>breathing session history</strong>: start date and time, duration, whether the session was
+        completed, time of day (morning / midday / evening), and your optional 1–5 wellbeing rating after a
+        session;</li>
+      <li><strong>milestones reached</strong> (e.g. streak length, number of sessions);</li>
+      <li><strong>settings</strong>: practice times, enabled reminders, chosen sound and volume, notification tone,
+        breathing-phase signal, language;</li>
+      <li><strong>technical data</strong>: an app launch counter, whether onboarding was completed, and the rotation
+        state of notification texts (so the same messages don't repeat too often).</li>
+    </ul>
+    <p>The app <strong>does not measure</strong> your heart rate or any other body parameters, and it does not store
+      your name, email address, location, contacts, photos or recordings. The wellbeing rating is optional.</p>
+    <p class="muted">The app is intended for breathing exercises and is not a medical device.</p>
+
+    <h2>3. Where the data is stored</h2>
+    <p>Data is stored only locally, in the app's private storage on your device, which other apps cannot access.
+      The app does not have permission to use the internet, so it cannot send this data to the developer or anyone
+      else.</p>
+
+    <h2>4. Google backup</h2>
+    <p>If Android backup is turned on, the system may save the data listed in section 2 to a backup in your
+      Google account. It may also transfer that data to a new phone when you switch devices, so you keep your
+      practice history. The backup is created and stored by Google under the
+      <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>. The developer has
+      no access to it. You can turn backup off in your phone settings (usually Settings → Google → Backup).</p>
+
+    <h2>5. App permissions</h2>
+    <ul>
+      <li><strong>Notifications</strong>: session reminders at the times you choose.</li>
+      <li><strong>Exact alarms</strong>: so reminders arrive at the chosen time.</li>
+      <li><strong>Run at startup</strong>: to reschedule reminders after the phone restarts.</li>
+      <li><strong>Vibration</strong>: an optional breathing-phase signal.</li>
+    </ul>
+    <p>The app does not request access to your location, contacts, camera, microphone or files. You can turn
+      notifications off at any time in the app or in your phone settings.</p>
+
+    <h2>6. Data sharing</h2>
+    <p>The developer does not sell, share or transfer your data to any third party. The app contains no ads,
+      no analytics, no online crash reporting and no advertising identifiers.</p>
+
+    <h2>7. Links to external websites</h2>
+    <p>The app may contain links to external websites, such as bookstores for recommended books or a platform
+      for voluntarily supporting the developer. A link opens in your browser only when you tap it. From then on,
+      that website's privacy policy applies. Affiliate links are clearly marked in the app.</p>
+
+    <h2>8. Retention and deletion</h2>
+    <p>Data stays on your device for as long as the app is installed. You can delete it at any time:</p>
+    <ul>
+      <li>in your phone settings: Apps → Heart Coherence → Storage → <em>Clear data</em>, or</li>
+      <li>by uninstalling the app.</li>
+    </ul>
+    <p>You can delete a backup stored in your Google account in your phone's or Google account's backup settings.</p>
+
+    <h2>9. Your rights</h2>
+    <p>Under the GDPR you have the right to access, rectify, erase, restrict the processing of, and port your data.
+      You also have the right to lodge a complaint with a supervisory authority; in Poland this is the President of
+      the Personal Data Protection Office (<a href="https://uodo.gov.pl" rel="noopener">uodo.gov.pl</a>). Because your
+      data is only on your device, you can exercise most of these rights yourself, for example by deleting data as
+      described in section 8. You can always contact the developer with questions.</p>
+
+    <h2>10. Children</h2>
+    <p>The app is not directed at children under 16. It does not knowingly collect any data that identifies
+      a user.</p>
+
+    <h2>11. Changes to this policy</h2>
+    <p>If the way the app handles data changes, for example by adding a feature that requires an internet
+      connection, this policy will be updated before that version is released. A new effective date will then
+      appear on this page.</p>
+  </article>
+
+  <footer>© 2026 Arkadiusz Maciąg · Koherencja Serca</footer>
+</main>
+</body>
+</html>

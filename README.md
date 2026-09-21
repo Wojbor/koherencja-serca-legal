@@ -1,1 +1,0 @@
-# koherencja-serca-legal
